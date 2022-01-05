@@ -2,36 +2,50 @@ body{
     font-family: 'Yeseva One', cursive;
     margin: 0;
 }
-.flexible-container{
+.flexibe-container{
     display: flex;
+    width: 90%;
 }
 .half-width{
     width: 50%;
-    position: absolute;
-    width: 520px;
-    height: 160px;
-    left: 156px;
-    top: 140px;
+    padding-left: 100px;
+    margin-top: 50px;
 }
 .half-width img{
-    position: absolute;
-    width: 426px;
-    height: 623px;
-    left: 807px;
-    top: -80px;
+    width:100%;
+    margin-top: -80px;
 }
-.text-color{
-    color: 
-    #FFAD5A;
+.color{
+    color: #FFAD5A;
 }
-.explore-btn{
+h1{
+    font-size: 60px;
+}
+.btn-exp{
+    padding: 12px 28px;
     background-color: #FF5959;
-    padding: 12px;
-    text-decoration: none;
-    color: #ffff;
-    border-radius: 3px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn-exp:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.mission-container{
+    margin-top: 200px;
+}
+.mission-area{
+    width: 70%;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+    background-color: #e2eceb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #929191 10px 10px 10px;
+    text-align: justify;
     
 }
-.explore-btn:hover{
-    border: 2px solid blue;
-}
+
