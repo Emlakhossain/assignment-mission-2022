@@ -41,7 +41,7 @@ h1{
     align-items: center;
     position: relative;
     margin-left: 100px;
-    background-color: rgb(235, 236, 236);
+    background-color: rgb(233, 240, 243);
     padding: 20px;
     border-radius: 10px;
     box-shadow: #929191 10px 10px 10px;
@@ -65,9 +65,19 @@ h1{
     padding: 50px;
 }
 .develop-corner img{
-    width: 500px;
+    width: 550px;
     height: 600px;
     margin-left: 50px;
+}
+.projects-area{
+    display: flex;
+    width: 90%;
+ 
+}
+.project-corner{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 
