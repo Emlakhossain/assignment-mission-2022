@@ -13,13 +13,17 @@ body{
 }
 .half-width img{
     width:100%;
-    margin-top: -80px;
+    margin-top: -90px;
 }
 .color{
     color: #FFAD5A;
 }
 h1{
     font-size: 60px;
+}
+#heading{
+    border-left: 4px solid #FF5959;
+    
 }
 .btn-exp{
     padding: 14px 28px;
@@ -72,12 +76,28 @@ h1{
 .projects-area{
     display: flex;
     width: 90%;
+    height: 680px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 150px;
  
 }
 .project-corner{
     width: 100%;
     margin-top: 100px;
     margin-left: 100px;
+}
+.footer-container{
+    text-align: center;
+    background-color: black;
+    color: #ffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 200px;
+}
+.footer-color{
+    color: #FF5959;
 }
 
 
